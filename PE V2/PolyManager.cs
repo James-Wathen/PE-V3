@@ -62,8 +62,8 @@ namespace PE_V2
             Polygon Shape1 = new Polygon(100, 100, 0, 0, 100, 100, black, verticies1, 0, 0, 0.5f, 10);
             Polygon Shape2 = new Polygon(100, -100, 0, 0, 100, 500, brown, verticies2, 0, 0, 0.5f, 10);//these shapes are preset to the simulation
             // the position is where the center of mass is positioned
-            //Objects.Add(Shape1);
-            //Objects.Add(Shape2);//adding the two preset polygons to Objects
+            Objects.Add(Shape1);
+            Objects.Add(Shape2);//adding the two preset polygons to Objects
             setTimer();
         }
         private void setTimer()
