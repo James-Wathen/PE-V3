@@ -65,6 +65,7 @@ namespace PE_V2
             Objects.Add(Shape1);
             Objects.Add(Shape2);//adding the two preset polygons to Objects
             setTimer();
+            // second push
         }
         private void setTimer()
         {
