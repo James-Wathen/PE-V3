@@ -2,6 +2,8 @@
 
 This is a 2D Physics simulation that allows the user to input shapes they draw with initial velocities, accelerations, mass and angular momentums and accelerations.
 All of these added objects would influence each other via collisions depending on momentum and be influenced by placed points of gravity in the system. 
+
+For a full description and test analysis of the program, look at the PhysicsSim pdf in the repository
 ## Full summary and Functionality
 The program starts with asking users to pick between two simulations, a polygon sim which can use any
 shape and includes things such as momentum conversion, or the original prototype and circle-only
